@@ -1,0 +1,11 @@
+
+div#header .header-container {
+    padding: 0px 80px 0px 86px;
+    max-width: 1920px;
+    margin: auto;
+
+    height: 125px;
+    & .header-logo{
+        top: 50px;
+    }
+}

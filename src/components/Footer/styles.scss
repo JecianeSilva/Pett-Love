@@ -1,0 +1,136 @@
+
+section#footer {
+    background-color: #556F4D;
+}
+.social-midia {
+    & a {
+        background-color: #506849;
+    }
+}
+.form-container {
+   
+    & .form-info-new {
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    & .input-container {
+        min-width: 380px;
+        background-color: #FFFFFF;
+        border-radius: 30px;
+        padding: 10px;
+
+        & input {
+            background: none;
+            border: none;
+            padding: 9px;
+
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #556F4D;
+
+            &::placeholder {
+                color: #556F4D;
+                font-weight: 700;
+                font-size: 18px;
+                line-height: 22px;
+            }
+
+            &:focus {
+                outline: none;
+            }
+        }
+
+        & button {
+            background-color: #F6C63B;
+            border-radius: 30px;
+            padding: 9px;
+
+            font-weight: 700;
+            font-size: 18px;
+            line-height: 22px;
+            color: #fff;
+        }
+    }
+}
+section#footer .footer-container {
+    padding: 93px 80px 40px 86px;
+    max-width: 1920px;
+    margin: auto;
+
+    & .info-map-site{
+        font-size: 18px;
+        line-height: 22px;
+        font-weight: 700;
+        margin-right: 64px;
+
+        @media screen and (min-width:998px) {
+            margin-right: 80px;
+        }
+
+        @media screen and (min-width:1200px) {
+            margin-right: 118px;
+        }
+
+        & .map-site-item {
+            margin-bottom: 15px;
+        }
+
+        & > p {
+            color: #f6c63b;
+            margin-bottom: 15px;
+        }
+
+        & .info-bancaria  {
+            font-size: 14px;
+            line-height: 17px;
+            margin-bottom: 15px;
+            font-weight: 400;
+            & > div {
+                font-weight: 700;
+            }
+             & span {
+                font-weight: 700;
+             }
+        }
+    }
+
+    & .footer-links > ul {
+        & li{
+            font-weight: 400;
+            font-size: 14px;
+            line-height: 17px;
+            margin-right: 18px;
+        }
+    }
+}
+
+section#footer .footer-copyright {
+    min-height: 90px;
+    height: auto;
+
+    background-color: #506849;
+
+    & div {
+        max-width: 1920px;
+        margin: auto;
+
+        padding-right: 80px;
+        padding-left: 86px;
+
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 15px;
+    
+    }
+    
+}
+
+section#footer .footer-copyright-mobile {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+}

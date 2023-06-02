@@ -1,0 +1,77 @@
+#banner{
+ background-color: #F7F4EB;
+
+ & .banner-logo{
+    top: 125px;
+    margin-top: -100px;
+ }
+
+ & .banner-title{
+    font-weight: 900;
+    font-size: 24px;
+    line-height: 29px;
+    text-align: center;
+
+    color: #506849;
+
+    @media screen and (min-width: 1200px) {
+        font-size: 48px;
+        line-height: 59px;
+    }
+
+ }
+ & .banner-description{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #9A9A9A;
+ }
+
+ & button {
+    background-color: #F6C63B;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+    text-align: center;
+
+    color: #546E4D;
+
+ }
+}
+.info-card {
+    & .title-card {
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 29px;
+        
+        color: #506849;
+        & span {
+            color: #F6C63B
+        }
+
+        @media screen and (min-width: 1200px) {
+            font-size: 36px;
+            line-height: 44px;
+        }
+    }
+
+    & .description-card {
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 21px;
+
+        color: #707070;
+
+        @media screen and (min-width: 1200px) {
+            font-size: 24px;
+            line-height: 36px;
+        }
+    }
+}
+.fullscreen{
+    min-height: 768px;
+}
