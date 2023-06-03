@@ -34,8 +34,13 @@ section#footer {
             &::placeholder {
                 color: #556F4D;
                 font-weight: 700;
-                font-size: 18px;
-                line-height: 22px;
+                font-size: 14px;
+                line-height: 17px;
+
+                @media screen and (min-width: 768px) {
+                    font-size: 18px;
+                    line-height: 22px;
+                }
             }
 
             &:focus {
@@ -49,9 +54,14 @@ section#footer {
             padding: 9px;
 
             font-weight: 700;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 16px;
+            line-height: 20px;
             color: #fff;
+
+            @media screen and (min-width: 768px) {
+                font-size: 18px;
+                line-height: 22px;
+            }
         }
     }
 }
