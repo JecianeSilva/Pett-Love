@@ -2,8 +2,14 @@
  background-color: #F7F4EB;
 
  & .banner-logo{
-    top: 125px;
-    margin-top: -100px;
+    height: 120px;
+    top: 60px;
+
+    @media screen and (min-width: 987px) {
+        height: 200px;
+        top: 125px;
+        margin-top: -100px;
+    }
  }
 
  & .banner-title{
@@ -73,5 +79,8 @@
     }
 }
 .fullscreen{
-    min-height: 768px;
+    min-height: 350px;
+    @media screen and (min-width: 768px) {
+        min-height: 768px;    
+    }
 }

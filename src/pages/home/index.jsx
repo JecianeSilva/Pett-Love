@@ -27,8 +27,8 @@ const Home = () =>{
     <div>
       <Header />
       <section id="banner" className="d-flex align-items-center justify-content-center px-5">
-        <div className="container fullscreen d-flex flex-column align-items-center justify-content-center col-lg-6 col-md-10 px-5">
-            <img className="banner-logo position-absolute" src={Logo} height={200} />
+        <div className="container fullscreen d-flex flex-column align-items-center justify-content-center col-lg-6 col-md-12 px-3">
+            <img className="banner-logo position-absolute" src={Logo} />
             <p className="banner-description mb-4">COMO FUNCIONA</p>
             <h1 className="banner-title mb-5">Encontre um pretendente para o seu animal</h1>
             <button className="btn py-3 px-5 rounded-pill"><Link to="/pets-love">Comece agora!</Link></button>
@@ -41,9 +41,9 @@ const Home = () =>{
               <CardImage image={Image1} />
             </div>
             <div className="info-card d-flex flex-column mt-3 col-lg-6 col-md-10 px-4 align-items-center align-items-lg-start mx-4 px-4">
-                <img className="my-lg-0 my-md-3" src={CadastrePet} alt="pet-cadastre" height={72} width={83} />
+                <img className="my-lg-0 my-4 my-md-3" src={CadastrePet} alt="pet-cadastre" height={72} width={83} />
                 <h1 className="title-card mt-4 mb-2">Cadastre seu <span>animal</span></h1>
-                <p className="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
+                <p className="description-card text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
             </div>
           </div>
           <div className="d-none d-lg-flex w-100 align-items-center justify-content-center">
@@ -59,9 +59,9 @@ const Home = () =>{
               <CardImage image={Image2} />
             </div>
             <div className="info-card d-flex flex-column mt-3 col-lg-6 col-md-10 align-items-center align-items-lg-start mx-4 px-4">
-                <img className="my-lg-0 my-md-3" src={SearchPet} alt="pet-cadastre" height={72} width={73} />
+                <img className="my-lg-0 my-4 my-md-3" src={SearchPet} alt="pet-cadastre" height={72} width={73} />
                 <h1 className="title-card mt-4 mb-2"><span>Procure</span> pretendentes</h1>
-                <p className="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
+                <p className="description-card text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
             </div>
           </div>
           <div className="d-none d-lg-flex w-100 align-items-center justify-content-center">
@@ -77,9 +77,9 @@ const Home = () =>{
               <CardImage image={Image3} />
             </div>
             <div className="info-card d-flex flex-column mt-3 col-lg-6 col-md-10 align-items-center align-items-lg-start px-3 mx-4">
-                <img className="my-lg-0 my-md-3"src={AgendarPet} alt="pet-cadastre" height={72} width={83} />
+                <img className="my-lg-0 my-4 my-md-3"src={AgendarPet} alt="pet-cadastre" height={72} width={83} />
                 <h1 className="title-card mt-4 mb-2">Marque um <span>encontro</span></h1>
-                <p className="description-card">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
+                <p className="description-card text-center text-md-start">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec egestas, erat et convallis gravida, nisl libero imperdiet dolor, et vestibulum tortor quam in nunc.</p>
             </div>
           </div>
         </div>
