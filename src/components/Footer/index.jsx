@@ -48,7 +48,7 @@ function Footer() {
                             </div>
                             <div className='info-map-site'>
                                 <ul>
-                                    <li className='map-site-item'><Link to="petslove">Pets namorando</Link></li>
+                                    <li className='map-site-item'><Link to="pets-love">Pets namorando</Link></li>
                                     <li className='map-site-item'><a href="#">Comece agora!</a></li>
                                     <li className='map-site-item'><a href="#">Contato</a></li>
                                 </ul>
