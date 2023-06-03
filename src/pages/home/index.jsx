@@ -31,7 +31,7 @@ const Home = () =>{
             <img className="banner-logo position-absolute" src={Logo} height={200} />
             <p className="banner-description mb-4">COMO FUNCIONA</p>
             <h1 className="banner-title mb-5">Encontre um pretendente para o seu animal</h1>
-            <button className="btn py-3 px-5 rounded-pill"><Link to="pets-love">Comece agora!</Link></button>
+            <button className="btn py-3 px-5 rounded-pill"><Link to="/pets-love">Comece agora!</Link></button>
         </div>
       </section>
       <section className="container my-5 py-5">
