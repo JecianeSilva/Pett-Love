@@ -9,6 +9,7 @@ import CopyPix from '../../assets/copy-file.png'
 
 import './styles.scss';
 import { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 function Footer() {
 
@@ -47,7 +48,7 @@ function Footer() {
                             </div>
                             <div className='info-map-site'>
                                 <ul>
-                                    <li className='map-site-item'><a href="/pets-love">Pets namorando</a></li>
+                                    <li className='map-site-item'><Link to="petslove">Pets namorando</Link></li>
                                     <li className='map-site-item'><a href="#">Comece agora!</a></li>
                                     <li className='map-site-item'><a href="#">Contato</a></li>
                                 </ul>
