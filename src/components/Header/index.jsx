@@ -10,7 +10,7 @@ import BtnEntrarMobile from "../../assets/btn-entrar-mobile.png"
 
 function Header() {
     return (
-        <div id="header" className="container-fluid m-auto">
+        <div id="header" className="m-auto">
             <div className="header-container  d-flex w-100 align-items-center justify-content-between">
                 <button  type="button" className="rounded-pill">
                     <img className="d-flex d-md-none" src={BtnMenuMobile} alt='icon-menu' />

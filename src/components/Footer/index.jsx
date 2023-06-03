@@ -19,7 +19,7 @@ function Footer() {
         setShowInfoBancaria(!state);
     }
     return (
-        <section id="footer" className='container-fluid m-auto text-white'>
+        <section id="footer" className='m-auto text-white'>
             <div className="footer-container d-flex flex-column justify-content-between">
                 <div className='d-flex align-items-center justify-content-between mb-5'>
                     <img  className="d-none d-lg-flex " src={LogoCompleto} alt="petlove" height={92} />
