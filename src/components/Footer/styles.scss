@@ -16,7 +16,7 @@ section#footer {
     }
 
     & .input-container {
-        min-width: 380px;
+        min-width: 330px;
         background-color: #FFFFFF;
         border-radius: 30px;
         padding: 10px;
@@ -27,9 +27,14 @@ section#footer {
             padding: 9px;
 
             font-weight: 700;
-            font-size: 18px;
-            line-height: 22px;
+            font-size: 14px;
+            line-height: 17px;
             color: #556F4D;
+
+            @media screen and (min-width: 768px) {
+                font-size: 18px;
+                line-height: 22px;
+            }
 
             &::placeholder {
                 color: #556F4D;
